@@ -142,26 +142,27 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
-            <!-- MODAL-->
-            <div id="results-modal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button class="close" data-dismiss="modal">&times;</button>
-                            <h2 class="modal-title">
-                                <strong>Best Match</strong>
-                            </h2>
-                            <p id="match-name"></p>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+            <button type="submit" class="btn btn-default btn-primary" id="submitBtn">Submit</button>
+        </form>
+        <!-- MODAL-->
+        <div id="results-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title">
+                            <strong>Best Match</strong>
+                        </h2>
+                        <p id="match-name"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default" data-dismiss="modal" id="closeBtn">Close</button>
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-default btn-primary">Submit</button>
-        </form>
+        </div>
+
         <a href="/api/friends" id="apiFriendsListLink">API Friends List | </a>
         <a href="https://github.com/tarahform/FriendFinder" id="githubRepoLink">GitHub Repo </a>
     </div>
@@ -189,7 +190,13 @@
                 $("#results-modal").toggleClass("modal");
                 $("#results-modal").toggleClass("fade");
             });
-        })
+        });
+
+        $("#closeBtn").on("click", function (e) {
+            e.preventDefault();
+            $("#results-modal").toggleClass("modal");
+            $("#results-modal").toggleClass("fade");
+        });
     </script>
 </body>
 
