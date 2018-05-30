@@ -1,7 +1,7 @@
 module.exports = [
     {
-        "name": "Ahmed",
-        "photo": "https://www.pinterest.com/amoss4721/disney-characters/",
+        "name": "Mr Poopybutthole",
+        "photo": "../public/assets/friend1.jpg",
         "scores": [
             5,
             1,
@@ -16,8 +16,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Fred",
-        "photo": "https://www.pinterest.com.au/pin/515873332302199486/",
+        "name": "Rick Sanchez",
+        "photo": "../public/assets/friend2.jpg",
         "scores": [
             1,
             2,
@@ -32,8 +32,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Anastasia",
-        "photo": "https://www.characterhour.com/featured-characters/disney/",
+        "name": "Morty Smith",
+        "photo": "../public/assets/friend3.jpg",
         "scores": [
             3,
             2,
@@ -48,8 +48,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Tennifer",
-        "photo": "https://drawinglics.com/s/baby-disney-cartoon-characters.py",
+        "name": "Mr. Meeseeks",
+        "photo": "../public/assets/friend4.jpg",
         "scores": [
             4,
             1,
@@ -64,8 +64,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Juice Box",
-        "photo": "http://perezhilton.com/cocoperez/galleries/met-gala-2014-disney-princesses-characters-dresses/?id=424345",
+        "name": "Summer Smith",
+        "photo": "../public/assets/friend5.jpg",
         "scores": [
             3,
             4,
@@ -80,8 +80,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Sam",
-        "photo": "https://picclick.co.uk/Disney-Characters-Q-Posket-Petit-Vol3-Belle-Mulan-142507871205.html",
+        "name": "Scary Terry",
+        "photo": "../public/assets/friend6.jpg",
         "scores": [
             5,
             5,
@@ -96,8 +96,8 @@ module.exports = [
         ]
     },
     {
-        "name": "George",
-        "photo": "http://www.fanpop.com/clubs/walt-disney-characters/picks/show/642737/whose-favorite-character-out-sensational-six",
+        "name": "Squanchy",
+        "photo": "../public/assets/friend7.jpg",
         "scores": [
             4,
             3,
@@ -112,8 +112,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Pickles",
-        "photo": "https://www.ilovecharacters.com/products/disney-parks-sulley-snuggle-snappers-plush-slap-bracelet-new-with-tag",
+        "name": "Zeep Xanflorp",
+        "photo": "../public/assets/friend8.jpg",
         "scores": [
             3,
             4,
@@ -128,8 +128,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Rick",
-        "photo": "https://www.disneystore.co.uk/dopey-large-soft-toy-snow-white-and-the-seven-dwarfs-412324725628.html",
+        "name": "Birdperson",
+        "photo": "../public/assets/friend9.jpg",
         "scores": [
             2,
             3,
@@ -144,8 +144,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Morty",
-        "photo": "https://www.pinterest.com/fernissuarez/childhood-characters/",
+        "name": "Snuffles",
+        "photo": "../public/assets/friend10.jpg",
         "scores": [
             4,
             5,
