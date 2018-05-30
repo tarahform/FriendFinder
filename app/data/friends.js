@@ -1,7 +1,7 @@
 module.exports = [
     {
         "name": "Mr Poopybutthole",
-        "photo": "../public/assets/friend1.jpg",
+        "photo": "./assets/friend1.jpg",
         "scores": [
             5,
             1,
@@ -17,7 +17,7 @@ module.exports = [
     },
     {
         "name": "Rick Sanchez",
-        "photo": "../public/assets/friend2.jpg",
+        "photo": "./assets/friend2.jpg",
         "scores": [
             1,
             2,
@@ -33,7 +33,7 @@ module.exports = [
     },
     {
         "name": "Morty Smith",
-        "photo": "../public/assets/friend3.jpg",
+        "photo": "./assets/friend3.jpg",
         "scores": [
             3,
             2,
@@ -49,7 +49,7 @@ module.exports = [
     },
     {
         "name": "Mr. Meeseeks",
-        "photo": "../public/assets/friend4.jpg",
+        "photo": "./assets/friend4.jpg",
         "scores": [
             4,
             1,
@@ -65,7 +65,7 @@ module.exports = [
     },
     {
         "name": "Summer Smith",
-        "photo": "../public/assets/friend5.jpg",
+        "photo": "./assets/friend5.jpg",
         "scores": [
             3,
             4,
@@ -81,7 +81,7 @@ module.exports = [
     },
     {
         "name": "Scary Terry",
-        "photo": "../public/assets/friend6.jpg",
+        "photo": "./assets/friend6.jpg",
         "scores": [
             5,
             5,
@@ -97,7 +97,7 @@ module.exports = [
     },
     {
         "name": "Squanchy",
-        "photo": "../public/assets/friend7.jpg",
+        "photo": "./assets/friend7.jpg",
         "scores": [
             4,
             3,
@@ -113,7 +113,7 @@ module.exports = [
     },
     {
         "name": "Zeep Xanflorp",
-        "photo": "../public/assets/friend8.jpg",
+        "photo": "./assets/friend8.jpg",
         "scores": [
             3,
             4,
@@ -129,7 +129,7 @@ module.exports = [
     },
     {
         "name": "Birdperson",
-        "photo": "../public/assets/friend9.jpg",
+        "photo": "./assets/friend9.jpg",
         "scores": [
             2,
             3,
@@ -145,7 +145,7 @@ module.exports = [
     },
     {
         "name": "Snuffles",
-        "photo": "../public/assets/friend10.jpg",
+        "photo": "./assets/friend10.jpg",
         "scores": [
             4,
             5,
