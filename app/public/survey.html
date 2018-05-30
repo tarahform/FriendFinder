@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FriendFinder | Tarah Dactyl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <h2>About You</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name (required)</label>
+                <input type="text" class="form-control" id="nameSurvey" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Photo Image (required)</label>
+                <input type="text" class="form-control" id="imgSurvey" placeholder="Photo">
+            </div>
+            <h3>Question 1</h3>
+            <div class="form-group">
+                <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                <select name="question1" id="qOne">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 2</h3>
+            <div class="form-group">
+                <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                <select name="question2" id="qTwo">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 3</h3>
+            <div class="form-group">
+                <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                <select name="question3" id="qThree">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 4</h3>
+            <div class="form-group">
+                <p>You rarely do something just out of sheer curiosity.</p>
+                <select name="question4" id="qFour">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 5</h3>
+            <div class="form-group">
+                <p>People can rarely upset you.</p>
+                <select name="question5" id="qFive">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 6</h3>
+            <div class="form-group">
+                <p>It is often difficult for you to relate to other people’s feelings.</p>
+                <select name="question6" id="qSix">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 7</h3>
+            <div class="form-group">
+                <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                <select name="question7" id="qSeven">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 8</h3>
+            <div class="form-group">
+                <p>You rarely get carried away by fantasies and ideas.
+                </p>
+                <select name="question8" id="qEight">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 9</h3>
+            <div class="form-group">
+                <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or
+                    not.
+                </p>
+                <select name="question9" id="qNine">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <h3>Question 10</h3>
+            <div class="form-group">
+                <p>You feel more energetic after spending time with a group of people.</p>
+                <select name="question10" id="qTen">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <!-- MODAL-->
+            <div id="results-modal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">
+                                <strong>Best Match</strong>
+                            </h2>
+                            <p id="match-name"></p>
+                            <img id="match-img" src="http://adventuretime.wikia.com/wiki/File:Piq_21633_400x400.png" alt="BEST MATCH PICTURE"
+                            />
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default btn-primary" id="submitBtn">Submit</button>
+        </form>
+        <a href="/api/friends" id="apiFriendsListLink">API Friends List | </a>
+        <a href="https://github.com/tarahform/FriendFinder" id="githubRepoLink">GitHub Repo </a>
+    </div>
+    <script type="text/javascript">
+        /*---------------------------------------------------
+            Run post with object containing all user input...
+            do comparisions in apiRoutes folder
+        ----------------------------------------------------*/
+        $('#submitBtn').click(function (e) {
+            e.preventDefault();
+            // console.log($('#qOne :selected').val())
+            var newEntry = {
+                name: $('#nameSurvey').val().trim(),
+                photo: $('#imgSurvey').val().trim(),
+                scores: [$('#qOne :selected').val(), $('#qTwo :selected').val(), $('#qThree :selected').val(), $('#qFour :selected').val(), $('#qFive :selected').val(),
+                $('#qSix :selected').val(), $('#qSeven :selected').val(), $('#qEight :selected').val(), $('#qNine :selected').val(), $('#qTen :selected').val()]
+            }
+            console.log("NEW ENTRY: " + JSON.stringify(newEntry));
+            //newEntry becomes req sent into apiRoutes post function
+            $.post('/api/new', newEntry, function (data) {
+                // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                $("#match-name").text(data.name);
+                $("#match-img").attr("src", data.photo);
+                // Show the modal with the best match
+                $("#results-modal").toggleClass("modal");
+                $("#results-modal").toggleClass("fade");
+            });
+        })
+    </script>
+</body>
+
+</html>
